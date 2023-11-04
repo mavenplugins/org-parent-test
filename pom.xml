@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.mavenplugins.test</groupId>
   <artifactId>org-parent-test</artifactId>
-  <version>0-SNAPSHOT</version>
+  <version>0</version>
   <packaging>pom</packaging>
 
   <name>mavenplugins org parent</name>
@@ -21,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/mavenplugins/org-parent-test.git</connection>
     <url>https://github.com/mavenplugins/org-parent-test</url>
-    <tag>HEAD</tag>
+    <tag>v0</tag>
   </scm>
 
   <issueManagement>
