@@ -18,6 +18,10 @@ on:
         type: boolean
         description: "Release to Maven Central - DryRun otherwise"
         default: false
+      enforceUnleashReleaseWorkflow:
+        required: false
+        type: boolean
+        description: "Unleash plugin will perform the actual release workflow. Otherwise the dry run workflow will be performed - unless releaseToMavenCentral is set true!"
         
 #  push:
 #    tags:
@@ -36,6 +40,7 @@ jobs:
       releaseVersion: ${{ inputs.releaseVersion }}
       nextSnapshotVersion: ${{ inputs.nextSnapshotVersion }}
       releaseToMavenCentral: ${{ inputs.releaseToMavenCentral }}
+      enforceUnleashReleaseWorkflow: ${{ inputs.enforceUnleashReleaseWorkflow }}
 
     secrets: inherit
 
