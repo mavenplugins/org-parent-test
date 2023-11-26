@@ -65,7 +65,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - TBD
 
 
+## [0.1]
+<!-- !!! Align version in badge URLs as well !!! -->
+[![0.1 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins.test/org-parent-test?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.1)](https://central.sonatype.com/artifact/io.github.mavenplugins.test/org-parent-test/0.1)
+
+### Summary
+- Improve developer info
+
+### Updates
+- pom.xml:
+  - improve developer node
+
+
 ## [0]
+<!-- !!! Align version in badge URLs as well !!! -->
+[![0 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins.test/org-parent-test?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0)](https://central.sonatype.com/artifact/io.github.mavenplugins.test/org-parent-test/0)
 
 ### Summary
 - Initial release
@@ -84,5 +98,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - This is just a dummy placeholder to make the parser of GHCICD/release-notes-from-changelog@v1 happy!
 -->
 
-[Unreleased]: https://github.com/mavenplugins/org-parent-test/releases/tag/v0..HEAD
+[Unreleased]: https://github.com/mavenplugins/org-parent-test/releases/tag/v0.1..HEAD
+[0.1]: https://github.com/mavenplugins/org-parent-test/releases/tag/v0.1
 [0]: https://github.com/mavenplugins/org-parent-test/releases/tag/v0
